@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-const WHATSAPP = "50688888888"; // <-- CAMBIAR POR TU NÚMERO
+const WHATSAPP = "50685303183"; // <-- CAMBIAR POR TU NÚMERO
 
 type Product = {
   id: number;
@@ -29,7 +29,7 @@ const products: Product[] = [
   { id: 13, name: "Dark Souls Solaire", price: 3000, originalPrice: 4500, category: "llaveros", img1: "/images/products/llavero-solaire1.jpeg", img2: "/images/products/llavero-solaire2.jpeg" },
   { id: 14, name: "Yu-Gi-Oh! Ojo del Milenio", price: 3000, originalPrice: 4500, category: "llaveros", img1: "/images/products/llavero-yugioh-milenio1.jpeg", img2: "/images/products/llavero-yugioh-milenio2.jpeg" },
   { id: 15, name: "Yu-Gi-Oh! Carta", price: 3000, originalPrice: 4500, category: "llaveros", img1: "/images/products/llavero-yugioh1.jpeg", img2: "/images/products/llavero-yugioh1.jpeg" },
-  { id: 16, name: "Naruto Meditación Tradicional", price: 30000, originalPrice: 40000, category: "figuras", img1: "/images/products/figura-naruto1.jpeg", img2: "/images/products/figura-naruto2.jpeg" },
+  { id: 16, name: "Naruto Meditación Tradicional", price: 23000, originalPrice: 40000, category: "figuras", img1: "/images/products/figura-naruto1.jpeg", img2: "/images/products/figura-naruto2.jpeg" },
 ];
 
 const categoryLabels: Record<string, string> = {
@@ -104,8 +104,8 @@ export default function Home() {
       <div className="hero">
         <p className="jp-accent">アニメショップ</p>
         <h1 className="hero-title">
-          TIENDA ANIME
-          <span>COSTA RICA</span>
+          AKUMA STORE
+          <span>CATALOGO</span>
         </h1>
         <p className="hero-sub">ROMPECABEZAS · LLAVEROS · FIGURAS</p>
         <div className="hero-line" />
@@ -170,7 +170,7 @@ export default function Home() {
       </a>
 
       <footer className="footer">
-        <p>© 2026 <span className="accent">Tienda Anime CR</span> — Costa Rica</p>
+        <p>© 2026 <span className="accent">Akuma Store</span> — Costa Rica</p>
         <p style={{ marginTop: 4, opacity: 0.5 }}>Pedidos por WhatsApp · Envios a todo el pais</p>
       </footer>
     </>
