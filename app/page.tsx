@@ -103,11 +103,9 @@ export default function Home() {
     <>
       <div className="hero">
         <p className="jp-accent">アニメショップ</p>
-        <h1 className="hero-title">
-          AKUMA STORE
-          <span>CATALOGO</span>
-        </h1>
+        <h1 className="hero-title">AKUMA STORE</h1>
         <img src="/images/logo.png" alt="Akuma Store" style={{ width: 180, height: "auto", margin: "0 auto 16px", display: "block" }} />
+        <p style={{ fontFamily: "'Bebas Neue', cursive", fontSize: "clamp(1.5rem, 5vw, 2.5rem)", color: "#e63946", letterSpacing: "8px" }}>CATÁLOGO</p>
         <p className="hero-sub">ROMPECABEZAS · LLAVEROS · FIGURAS</p>
         <div className="hero-line" />
       </div>
