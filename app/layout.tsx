@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Tienda Anime CR | Rompecabezas · Llaveros · Figuras",
-  description: "Tu tienda de artículos anime en Costa Rica.",
+  title: "Akuma Store CR | Rompecabezas · Llaveros · Figuras",
+  description: "Balato.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
