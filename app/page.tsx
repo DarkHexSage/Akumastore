@@ -29,7 +29,7 @@ const products: Product[] = [
   { id: 13, name: "Dark Souls Solaire", price: 3000, originalPrice: 4500, category: "llaveros", img1: "/images/products/llavero-solaire1.jpeg", img2: "/images/products/llavero-solaire2.jpeg" },
   { id: 14, name: "Yu-Gi-Oh! Ojo del Milenio", price: 3000, originalPrice: 4500, category: "llaveros", img1: "/images/products/llavero-yugioh-milenio1.jpeg", img2: "/images/products/llavero-yugioh-milenio2.jpeg" },
   { id: 15, name: "Yu-Gi-Oh! Carta", price: 3000, originalPrice: 4500, category: "llaveros", img1: "/images/products/llavero-yugioh1.jpeg", img2: "/images/products/llavero-yugioh1.jpeg" },
-  { id: 16, name: "Naruto Meditación Tradicional", price: 23000, originalPrice: 40000, category: "figuras", img1: "/images/products/figura-naruto1.jpeg", img2: "/images/products/figura-naruto2.jpeg" },
+  { id: 16, name: "Naruto Meditación Tradicional", price: 23000, originalPrice: 28000, category: "figuras", img1: "/images/products/figura-naruto1.jpeg", img2: "/images/products/figura-naruto2.jpeg" },
 ];
 
 const categoryLabels: Record<string, string> = {
