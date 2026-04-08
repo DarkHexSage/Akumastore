@@ -107,6 +107,7 @@ export default function Home() {
           AKUMA STORE
           <span>CATALOGO</span>
         </h1>
+        <img src="/images/logo.png" alt="Akuma Store" style={{ width: 180, height: "auto", margin: "0 auto 16px", display: "block" }} />
         <p className="hero-sub">ROMPECABEZAS · LLAVEROS · FIGURAS</p>
         <div className="hero-line" />
       </div>
