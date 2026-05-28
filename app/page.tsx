@@ -14,22 +14,22 @@ type Product = {
 };
 
 const products: Product[] = [
-  { id: 1, name: "Naruto Akatsuki", price: 16000, originalPrice: 20000, category: "rompecabezas", img1: "/images/products/puzzle-akatsuki1.jpeg", img2: "/images/products/puzzle-akatsuki2.jpeg" },
-  { id: 2, name: "El Viaje de Chihiro", price: 16000, originalPrice: 20000, category: "rompecabezas", img1: "/images/products/puzzle-chihiro1.jpeg", img2: "/images/products/puzzle-chihiro2.jpeg" },
-  { id: 3, name: "Death Note", price: 16000, originalPrice: 20000, category: "rompecabezas", img1: "/images/products/puzzle-deathnote.png", img2: "/images/products/puzzle-deathnote2.png" },
-  { id: 4, name: "Digimon", price: 16000, originalPrice: 20000, category: "rompecabezas", img1: "/images/products/puzzle-digimon1.jpeg", img2: "/images/products/puzzle-digimon2.jpeg" },
-  { id: 5, name: "Yu-Gi-Oh! Exodia", price: 16000, originalPrice: 20000, category: "rompecabezas", img1: "/images/products/puzzle-exodia1.jpeg", img2: "/images/products/puzzle-exodia2.jpeg" },
-  { id: 6, name: "One Piece", price: 16000, originalPrice: 20000, category: "rompecabezas", img1: "/images/products/puzzle-onepiece1.jpeg", img2: "/images/products/puzzle-onepiece2.jpeg" },
-  { id: 7, name: "Attack on Titan", price: 16000, originalPrice: 20000, category: "rompecabezas", img1: "/images/products/puzzle-shingeky1.jpeg", img2: "/images/products/puzzle-shingeky2.jpeg" },
-  { id: 8, name: "Mi Vecino Totoro", price: 16000, originalPrice: 20000, category: "rompecabezas", img1: "/images/products/puzzle-totoro1.jpeg", img2: "/images/products/puzzle-totoro2.jpeg" },
-  { id: 9, name: "Yu-Gi-Oh! Dark Magician", price: 16000, originalPrice: 20000, category: "rompecabezas", img1: "/images/products/puzzle-yugiohpsy1.jpeg", img2: "/images/products/puzzle-yugiohpsy2.jpeg" },
+  { id: 1, name: "Naruto Akatsuki", price: 11000, originalPrice: 16000, category: "rompecabezas", img1: "/images/products/puzzle-akatsuki1.jpeg", img2: "/images/products/puzzle-akatsuki2.jpeg" },
+  { id: 2, name: "El Viaje de Chihiro", price: 11000, originalPrice: 16000, category: "rompecabezas", img1: "/images/products/puzzle-chihiro1.jpeg", img2: "/images/products/puzzle-chihiro2.jpeg" },
+  { id: 3, name: "Death Note", price: 11000, originalPrice: 16000, category: "rompecabezas", img1: "/images/products/puzzle-deathnote.png", img2: "/images/products/puzzle-deathnote2.png" },
+  { id: 4, name: "Digimon", price: 9000, originalPrice: 13000, category: "rompecabezas", img1: "/images/products/puzzle-digimon1.jpeg", img2: "/images/products/puzzle-digimon2.jpeg" },
+  { id: 5, name: "Yu-Gi-Oh! Exodia", price: 8000, originalPrice: 13000, category: "rompecabezas", img1: "/images/products/puzzle-exodia1.jpeg", img2: "/images/products/puzzle-exodia2.jpeg" },
+  { id: 6, name: "One Piece", price: 11000, originalPrice: 16000, category: "rompecabezas", img1: "/images/products/puzzle-onepiece1.jpeg", img2: "/images/products/puzzle-onepiece2.jpeg" },
+  { id: 7, name: "Attack on Titan", price: 11000, originalPrice: 16000, category: "rompecabezas", img1: "/images/products/puzzle-shingeky1.jpeg", img2: "/images/products/puzzle-shingeky2.jpeg" },
+  { id: 8, name: "Mi Vecino Totoro", price: 10000, originalPrice: 13000, category: "rompecabezas", img1: "/images/products/puzzle-totoro1.jpeg", img2: "/images/products/puzzle-totoro2.jpeg" },
+  { id: 9, name: "Yu-Gi-Oh!", price: 11000, originalPrice: 16000, category: "rompecabezas", img1: "/images/products/puzzle-yugiohpsy1.jpeg", img2: "/images/products/puzzle-yugiohpsy2.jpeg" },
   { id: 10, name: "Naruto Akatsuki", price: 3000, originalPrice: 4500, category: "llaveros", img1: "/images/products/llavero-akatsuki1.jpeg", img2: "/images/products/llavero-akatsuki2.jpeg" },
   { id: 11, name: "Berserk Beherit", price: 3000, originalPrice: 4500, category: "llaveros", img1: "/images/products/llavero-beherit1.jpeg", img2: "/images/products/llavero-beherit2.jpeg" },
   { id: 12, name: "Attack on Titan", price: 3000, originalPrice: 4500, category: "llaveros", img1: "/images/products/llavero-shingeky1.jpeg", img2: "/images/products/llavero-shingeky2.jpeg" },
-  { id: 13, name: "Dark Souls Solaire", price: 3000, originalPrice: 4500, category: "llaveros", img1: "/images/products/llavero-solaire1.jpeg", img2: "/images/products/llavero-solaire2.jpeg" },
-  { id: 14, name: "Yu-Gi-Oh! Ojo del Milenio", price: 3000, originalPrice: 4500, category: "llaveros", img1: "/images/products/llavero-yugioh-milenio1.jpeg", img2: "/images/products/llavero-yugioh-milenio2.jpeg" },
-  { id: 15, name: "Yu-Gi-Oh! Carta", price: 3000, originalPrice: 4500, category: "llaveros", img1: "/images/products/llavero-yugioh1.jpeg", img2: "/images/products/llavero-yugioh1.jpeg" },
-  { id: 16, name: "Naruto Meditación Tradicional", price: 23000, originalPrice: 28000, category: "figuras", img1: "/images/products/figura-naruto1.jpeg", img2: "/images/products/figura-naruto2.jpeg" },
+  { id: 13, name: "Dark Souls Solaire", price: 3500, originalPrice: 4500, category: "llaveros", img1: "/images/products/llavero-solaire1.jpeg", img2: "/images/products/llavero-solaire2.jpeg" },
+  { id: 14, name: "Yu-Gi-Oh! Rompecabezas del Milenio", price: 3500, originalPrice: 4500, category: "llaveros", img1: "/images/products/llavero-yugioh-milenio1.jpeg", img2: "/images/products/llavero-yugioh-milenio2.jpeg" },
+  { id: 15, name: "Yu-Gi-Oh! Cetro Del Milenio", price: 3500, originalPrice: 4500, category: "llaveros", img1: "/images/products/llavero-yugioh1.jpeg", img2: "/images/products/llavero-yugioh1.jpeg" },
+  { id: 16, name: "Naruto Meditación Tradicional", price: 14000, originalPrice: 20000, category: "figuras", img1: "/images/products/figura-naruto1.jpeg", img2: "/images/products/figura-naruto2.jpeg" },
 ];
 
 const categoryLabels: Record<string, string> = {
